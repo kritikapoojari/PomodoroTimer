@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./style/pomodoro-timer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="logo">
+            <img src="./images/timer.png" class="logo" id="logo5" />
+        </div>
+
+        <div class="banner-section">
+            <nav class="navigation-links">
+                <ul class="nav-container">
+                    <li class="nav-items">
+                        <a href="#" class="nav-links">HOME</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-links">ABOUT US</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-links">SERVICES</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-links">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <br />
+    <span>
+      <h1>Pomodoro Timer</h1>
+    </span>
+
+    <section class="section">
+        <h1 id="display">25:00</h1>
+        <div class="buttons">
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="restart()">Restart</button>
+            <button onclick="breakTime()">Break Time</button>
+        </div>
+    </section>
+    <br />
+    <footer>
+        <div class="footer">
+            <h4 class="footer-sub">@pomodoro2020</h4>
+            Mail us at <i class="fa fa-fw fa-envelope"></i> :<a href="#">pomdoro @xyz.com</a
+        >
+        <br />
+        Call us at <i class="fa fa-fw fa-phone"></i> :<a href="#"
+          >+91-983538767</a
+        >
+      </div>
+    </footer>
+  </body>
+  <script src="./src/main.js"></script>
+</html>
